@@ -27,6 +27,23 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
+  /* Header Top */
+  .header-top-navbar {
+    text-align: center;
+  }
+  .header-top-right ul.top-right-option li {
+    display: block;
+  }
+  .header-top-menu ul li:first-child {
+    margin-left: 10px;
+  }
+  .header-top-right {
+    margin-left: 10px;
+  }
+  .header-top-right ul.top-right-option li ul.dropdown-menu {
+    top: 35px;
+    left: -400%;
+  }
   /* Mobile Menu Style */
   .mean-container a.meanmenu-reveal {
     top: -24px;

@@ -3,7 +3,7 @@
     // Mobile menu
     jQuery('#mobile-menu-active').meanmenu({
         meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "991"
+        meanScreenWidth: "768"
     });
 
     // card slider
@@ -90,8 +90,8 @@
 
     // Sort By Selector
     $(document).ready(function() {
-        $('#sort-by-option').niceSelect();
-      });
+      $('#sort-by-option').niceSelect();
+    });
 
 
 
