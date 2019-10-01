@@ -59,8 +59,19 @@
     width: 95%;
     margin-left: 20px;
     margin-top: 20px;
+    background-color: #fff;
   }
+  .mean-container .mean-nav ul li a {
+    color: rgb(0,0,0,0.8);
+    border-top: 1px solid rgb(0,0,0,0.8);
+  }
+  .mean-container .mean-nav ul li:first-child a {
+    border-top: none;
+  }
+  .mean-container .mean-nav ul li a:hover {
+    color: rgb(0,0,0,1);
 
+  }
   /* Card Slider */
   .card-slider-wrap {
     background-image: url('../img/slider-bg.jpg');
