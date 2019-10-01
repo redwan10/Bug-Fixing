@@ -1,6 +1,6 @@
 (function($){
     "use strict";
-    // Mobile menu
+    // Mobile menu 
     jQuery('#mobile-menu-active').meanmenu({
         meanMenuContainer: '.mobile-menu',
         meanScreenWidth: "768"
