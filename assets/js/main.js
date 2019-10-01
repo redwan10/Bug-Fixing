@@ -31,7 +31,7 @@
             slidesToScroll: 1
           }
         },{
-          breakpoint: 1350,
+          breakpoint: 1200,
           settings: {
             arrows: true,
             dots: false,
@@ -39,7 +39,7 @@
             autoplay: false,
             fade: false,
             speed: 300,
-            slidesToShow: 5,
+            slidesToShow: 4,
             slidesToScroll: 1
           }
         },{
@@ -51,13 +51,25 @@
             autoplay: false,
             fade: false,
             speed: 300,
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1
           }
         },{
           breakpoint: 768,
           settings: {
-            arrows: false,
+            arrows: true,
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            fade: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },{
+          breakpoint: 470,
+          settings: {
+            arrows: true,
             dots: false,
             infinite: true,
             autoplay: false,

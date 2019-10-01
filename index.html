@@ -40,13 +40,10 @@
           <div class="navbar navbar-expand-lg header-top-navbar">
               <div class="header-top-left navbar-brand">
                 <a href="#" class="logo"><span>Logo Here</span></a>
-                <a href="#" class="link">Get started<i class="fas fa-caret-right"></i></a>
+                <a href="#" class="link d-none d-md-block">Get started<i class="fas fa-caret-right"></i></a>
               </div>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerTopNav" aria-controls="headerTopNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse header-top-menu" id="headerTopNav">
-                <ul class="navbar-nav ml-auto">
+              <div class="header-top-menu ml-auto">
+                <ul class="navbar-nav ml-auto d-none d-lg-block">
                   <li class="nav-item"><a class="nav-link" href="#">PRIVILAGES</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">NETWORK</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">COMPANIES</a></li>
@@ -70,7 +67,8 @@
                   </li>
                   <li><a href="#"><i class="fas fa-folder-plus"></i></a></li>
                   <li><a href="#"><i class="fas fa-bell"></i></a></li>
-                  <li><button type="button" class="sign-in"><i class="fas fa-user-circle"></i>Sign in</button></li>
+                  <li><a href="#" class="d-md-none"><i class="fas fa-user-circle"></i></a></li>
+                  <li><button type="button" class="sign-in d-none d-md-inline-block"><i class="fas fa-user-circle"></i>Sign in</button></li>
                 </ul>
               </div>
               <!-- Header Top Right End -->
@@ -84,10 +82,10 @@
     <div class="main-menu-wrapper pt-4 pb-4">
       <div class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-xl-6">
+          <div class="col-md-10 col-lg-8 col-xl-6">
             <!-- Main Menu -->
-            <nav class="main-menu">
-              <ul class="d-flex justify-content-between">
+            <nav class="main-menu" id="mobile-menu-active">
+              <ul class="d-md-flex justify-content-md-between">
                 <li><a href="#">HOTELS</a></li>
                 <li><a href="#">LIFESTYLE</a></li>
                 <li><a href="#">TRAVEL</a></li>
@@ -96,6 +94,10 @@
                 <li><a href="#">EVENTS</a></li>
               </ul>
             </nav>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+              <span class="sr-only">Mobile Menu Will Add Here</span>
+            </div>
             <!-- Main Menu End -->
           </div>
         </div>
@@ -230,8 +232,8 @@
     <div class="container-fluid">
       <div class="row">
         <!-- Sidebar -->
-        <div class="col-xl-2">
-          <aside class="sidebar-wrap sticky-top">
+        <div class="col-md-3 col-xl-2">
+          <aside class="sidebar-wrap">
             <!-- Sidebar Link -->
             <ul class="sidebar-link">
               <li><a href="#">Business Essentials</a></li>
@@ -283,7 +285,7 @@
         </div>
         <!-- Sidebar End -->
         <!-- Card Area -->
-        <div class="col-xl-10">
+        <div class="col-md-9 col-xl-10">
           <div class="card-area-wrap">
             <!-- Title -->
             <div class="card-area-title mb-4 d-flex justify-content-between">
@@ -301,7 +303,7 @@
             </div>
             <div class="row">
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -347,7 +349,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -393,7 +395,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -439,7 +441,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -485,7 +487,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -531,7 +533,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -577,7 +579,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
@@ -623,7 +625,7 @@
               </div>
               <!-- Single Card End -->
               <!-- Single Card -->
-              <div class="col-xl-3">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="card">
                   <div class="card-header">
                     <a href="#"><img src="assets/img/card-img.jpg" alt="Card Image" class="img-fluid"></a>
